@@ -6,18 +6,18 @@ import java.util.Arrays;
 class PrefixMatching{
      public static void main(String... args){
          ArrayList<String> A = new ArrayList<String>(
-             Arrays.asList("aa", "aaab", "ab", "b")
+             Arrays.asList("aa", "aaab", "ab", "b", "bbb", "cbb")
          );
         //  input 1 = "aa", "aaab", "ab", "b"
-        // input 2 = "aa", "aaab", "ab", "b" "bb" "bbb" 
-         String B = "b";
+        // input 2 = "aa", "aaab", "ab", "b", "bb", "bbb" 
+         String B = "b"; // prefix
          ArrayList<Integer> result = new ArrayList<Integer>();
         result.add(firstOccurrence_binarySearch(A, B));
         result.add(lastOccurrence_binarySearch(A,B));
         System.out.println(result);
      }
 
-     public static boolean matchPrefix(String str, String pattern){
+    public static boolean matchPrefix(String str, String pattern){
          System.out.println(str +"   ===>   "+ pattern);
         if(str.length() < pattern.length())
             return false;
@@ -32,7 +32,7 @@ class PrefixMatching{
 
         while (s<=e) {
             //prefix found
-            System.out.println("MID : "+ mid);
+            System.out.println("MID : LEFT "+ mid);
             if (matchPrefix(A.get(mid), key)) {
                 // System.out.println("PATTERN FOUND");
                 firstMatch = mid;
@@ -60,6 +60,7 @@ class PrefixMatching{
 
         while (s<=e) {
             //prefix found
+            System.out.println("MID : R "+ mid);
             if (matchPrefix(A.get(mid), key)) {
                 // System.out.println("PATTERN MATECHED");
                 lastMatch = mid;
@@ -75,7 +76,6 @@ class PrefixMatching{
                 e = mid - 1;
             }
             mid = s + (e - s) / 2;
-            System.out.println(mid);
         }
         return lastMatch;
     }

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MathematicsForCP {
 
     public static void main(String... a){
-        int num[] = {1305, 4665, 6905};
+        // int num[] = {1305, 4665, 6905};
         System.out.println(lcm(6, lcm(9,lcm(15,18))));
         // System.out.println(greatestNumberThat_DivideAll_LeavingSameRemainder(num));
     }

@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchAlgo",
+            "request": "launch",
+            "mainClass": "binarySearch.BinarySearchAlgo",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch FoodPacketDistribution",
+            "request": "launch",
+            "mainClass": "binarySearch.FoodPacketDistribution",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch MathematicsForCP",
+            "request": "launch",
+            "mainClass": "numberSystem.MathematicsForCP",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch AccountManager",
+            "request": "launch",
+            "mainClass": "queue_problem.AccountManager",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrefixMatching",
+            "request": "launch",
+            "mainClass": "stringOperation.PrefixMatching",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        }
+    ]
+}
