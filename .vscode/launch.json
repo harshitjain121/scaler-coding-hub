@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PerfectSquareRoot",
+            "request": "launch",
+            "mainClass": "day_4.assignment.PerfectSquareRoot",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch Summation",
+            "request": "launch",
+            "mainClass": "day_4.assignment.Summation",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNumber",
+            "request": "launch",
+            "mainClass": "day_4.assignment.PrimeNumber",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerfectNumber",
+            "request": "launch",
+            "mainClass": "day_4.assignment.PerfectNumber",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
