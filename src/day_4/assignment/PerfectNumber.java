@@ -1,7 +1,6 @@
 package day_4.assignment;
 
 
-import java.lang.*;
 import java.util.*;
 
 public class PerfectNumber {

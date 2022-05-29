@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SearchElement",
+            "request": "launch",
+            "mainClass": "day_7.assignment.SearchElement",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseList",
+            "request": "launch",
+            "mainClass": "day_7.assignment.ReverseList",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxMinOfArray",
+            "request": "launch",
+            "mainClass": "day_7.assignment.MaxMinOfArray",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch GoodPair",
+            "request": "launch",
+            "mainClass": "day_7.assignment.GoodPair",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
             "name": "Launch PerfectSquareRoot",
             "request": "launch",
             "mainClass": "day_4.assignment.PerfectSquareRoot",

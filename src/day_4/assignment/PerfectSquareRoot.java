@@ -1,7 +1,6 @@
 package day_4.assignment;
 
 
-import java.util.*;
 
 // binary search
 public class PerfectSquareRoot {

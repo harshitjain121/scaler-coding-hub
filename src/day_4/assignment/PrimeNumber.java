@@ -11,6 +11,7 @@ public class PrimeNumber {
         // taking input
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        sc.close();
         // corner case
         if(n == 1 || n%2 ==0){
             System.out.println("NO");
@@ -28,7 +29,5 @@ public class PrimeNumber {
             }
         }
         System.out.println("YES");
-            
-        sc.close();
     }
 }
