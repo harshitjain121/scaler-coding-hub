@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Bulbs",
+            "request": "launch",
+            "mainClass": "day_9.Arrays_Carry_forward.Bulbs",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClosestMinMaxSubArray",
+            "request": "launch",
+            "mainClass": "day_9.Arrays_Carry_forward.ClosestMinMaxSubArray",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpecialSubsequence",
+            "request": "launch",
+            "mainClass": "day_9.Arrays_Carry_forward.SpecialSubsequence",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
             "name": "Launch RangeSumQuery",
             "request": "launch",
             "mainClass": "day_8.Array_Prefix_Sum.RangeSumQuery",
