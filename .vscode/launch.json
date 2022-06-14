@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LeetCode992",
+            "request": "launch",
+            "mainClass": "leetocde.bfs.LeetCode992",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch Amazon1",
+            "request": "launch",
+            "mainClass": "day_12.Arrays_Interview_Prob.Amazon1",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxConsecutiveOnce",
+            "request": "launch",
+            "mainClass": "day_12.Arrays_Interview_Prob.MaxConsecutiveOnce",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiagonalsMatrix",
+            "request": "launch",
+            "mainClass": "day_11.Matrix_Arrays.DiagonalsMatrix",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddMatrices",
+            "request": "launch",
+            "mainClass": "day_11.Matrix_Arrays.AddMatrices",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubarrayWithLeastAverage",
+            "request": "launch",
+            "mainClass": "day_10.Sub_Arrays.SubarrayWithLeastAverage",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfAllSunbArray",
+            "request": "launch",
+            "mainClass": "day_10.Sub_Arrays.SumOfAllSunbArray",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSumContiguousSubarray",
+            "request": "launch",
+            "mainClass": "day_10.Sub_Arrays.MaxSumContiguousSubarray",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
             "name": "Launch Bulbs",
             "request": "launch",
             "mainClass": "day_9.Arrays_Carry_forward.Bulbs",
