@@ -18,6 +18,15 @@ public class Amazon1 {
         orderList.add("125 echo dot second generation");
         int c = 0;
 
+        // OUTPUT
+        
+        // 125 echo dot second generation
+        // 10a echo show
+        // ab1 kindle book
+        // fp kindle book
+        // zld 93 12
+        // 17g 12 25 6
+
         for (int i = 0; i < 6; i++) {
             String[] temp = orderList.get(c).split(" ",2);
             if(Character.isAlphabetic(temp[1].charAt(0))){

@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SpellingChecker",
+            "request": "launch",
+            "mainClass": "SpellingChecker",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "advance_batch.prime.Solution",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch Power",
+            "request": "launch",
+            "mainClass": "advance_batch.modulus.Power",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch InputReader",
+            "request": "launch",
+            "mainClass": "Interview_tips.InputReader",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfSetBits",
+            "request": "launch",
+            "mainClass": "day_14.bit.NumberOfSetBits",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlternatingSubArrayCount",
+            "request": "launch",
+            "mainClass": "day_10.Sub_Arrays.AlternatingSubArrayCount",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch PhonePe",
+            "request": "launch",
+            "mainClass": "Interview_tips.PhonePe",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseStringLC",
+            "request": "launch",
+            "mainClass": "day_24.Recursion.ReverseStringLC",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch MagicNumber",
+            "request": "launch",
+            "mainClass": "day_24.Recursion.MagicNumber",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Interview_tips.Test",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
+            "name": "Launch Leetcode1905",
+            "request": "launch",
+            "mainClass": "leetocde.bfs.Leetcode1905",
+            "projectName": "scaler-coding-hub_eac9b1db"
+        },
+        {
+            "type": "java",
             "name": "Launch LeetCode992",
             "request": "launch",
             "mainClass": "leetocde.bfs.LeetCode992",
